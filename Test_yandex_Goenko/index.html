@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Задане Гоенко Михаила m.goenko@yandex.ru для Яндекс Академии "Школе Node.JS"</title>
+</head>
+<body>
+
+<div>
+	<h4>Задание Гоенко Михаила m.goenko@yandex.ru для Яндекс Академии "Школе Node.JS"</h4>
+	<form id="myForm" action="data/success.json">
+		<style type="text/css" scoped>
+			input {
+			  border: 1px solid gray;
+			}
+			input.error {
+			  border: 1px solid red;
+			}
+		</style>
+		<p>
+			<label for="fio">Введите ФИО: </label>
+			<br>
+			<input type="text" id="fio" name="fio" placeholder="Фамилия Имя Отчество"/></p>
+		<p>
+			<label for="email">Введите Email: </label>
+			<br>
+			<input type="email" id="email" name="email" placeholder="example@yandex.ru"/>
+		</p>
+		<p>
+			<label for="phone">Введите Телефон: </label>
+			<br>
+			<input type="tel" id="phone" name="phone" placeholder="+7(000)000-00-00"/>
+		</p>
+		<button id="submitButton">Зарегестрироваться</button>
+		<div id="resultContainer"/>
+	</form>
+	<script src="index.js"></script>
+</div>
+</body>
+</html>
